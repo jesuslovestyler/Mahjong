@@ -117,6 +117,28 @@
     }
     .new-deal:hover { background: var(--button-hover); }
     .new-deal:active { transform: translateY(1px); box-shadow: none; }
+    .bar-actions {
+      flex: 0 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .home-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 42px;
+      padding: 0 13px;
+      border: 1px solid var(--panel-line);
+      border-radius: 999px;
+      background: var(--button);
+      color: var(--ink);
+      font-weight: 720;
+      font-size: 14px;
+      text-decoration: none;
+      box-shadow: 0 2px 0 rgba(15,49,40,.08);
+    }
+    .home-link:hover { background: var(--button-hover); }
+    .home-link:active { transform: translateY(1px); box-shadow: none; }
 
     .board-shell {
       position: relative;
@@ -463,7 +485,10 @@
         <p class="remaining"><span id="remainingCount">144</span> tiles remaining</p>
         <p class="guidance" id="guidance">Match two free tiles to clear the board.</p>
       </div>
-      <button class="new-deal" id="newDeal" type="button">New deal</button>
+      <div class="bar-actions">
+        <a class="home-link" href="https://jesuslovestyler.com/">⌂ Home</a>
+        <button class="new-deal" id="newDeal" type="button">New deal</button>
+      </div>
     </section>
 
     <section class="board-shell" aria-label="Mahjong board">
@@ -892,5 +917,6 @@
       startGame();
     })();
   </script>
+  <script data-goatcounter="https://jesuslovestyler.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
