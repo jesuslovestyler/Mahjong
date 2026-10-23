@@ -1,9 +1,8 @@
 # Mahjong
 
-Classic Mahjong solitaire — a layered 144-tile turtle board with traditional suits and honors.
+A free mahjong solitaire game you play in your browser: match the open pairs, clear the tiles, and breathe a little slower while you do it.
 
-Tap two matching free tiles to remove them. Includes hint, shuffle, and new deals, with a clear finish when the board is cleared and a graceful recovery when no moves remain.
+**Live:** https://jesuslovestyler.github.io/Mahjong/
+**Home:** https://jesuslovestyler.com/
 
-No scoreboard, no saved data, no ads, no tracking — just the game.
-
-Built with Muse artifacts.
+One self-contained page: no account, no ads, nothing to buy. Released into the public domain (Unlicense — see LICENSE). Built by Tyler with Noki.
